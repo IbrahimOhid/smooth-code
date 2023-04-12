@@ -1,0 +1,31 @@
+#team-area{
+    .card{
+        &:hover .card-body{
+            width: 100%;
+        }
+    }
+    .card-body{
+        background: $sec-color;
+        height: 530px;
+        width: 75%;
+        transition: 0.3s;
+        }
+        ul.social{
+            list-style: none;
+            margin: 0 0 250px;
+            text-align: right;
+            padding: 0 20px 0;
+            li{
+                margin-bottom: 15px;
+                display: block;
+            }
+        }
+        a{
+            color: $black-color;
+            font-size: 20px;
+            &:hover{
+                color: $white-color;
+            }
+        }
+        
+}

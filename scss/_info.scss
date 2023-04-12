@@ -1,0 +1,36 @@
+#info-area{
+    background: #2C3A47;
+    color: $white-color;
+    border: 1px solid gray;
+    .logo-info{
+        text-align: justify;
+    }
+    .contact-section{
+        i{
+            margin-right: 10px;
+        }
+    }
+    .recent-post{
+        padding-top: 20px;
+        p{
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                color: $sec-color;
+                text-decoration: underline;
+            }
+        }
+        h5{
+            color: $primary-color;
+        }
+    }
+    .logo-text{
+        color: $primary-color;
+    }
+    .email-newsletter{
+        padding-top: 20px;
+        h5{
+            color: $primary-color;
+        }
+    }
+}

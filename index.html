@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <title>Smooth Code</title>
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- bootstrap 5 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+  </head>
+  <body>
+    <!-- header-area starts here -->
+    <header>
+      <section id="nav-area">
+        <nav
+          id="main-nav"
+          class="navbar navbar-expand-lg navbar-light fixed-top bg-white py-3"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img
+                class="mx-2 img-fluid"
+                loading="la"
+                src="img/icon.png"
+                alt=""
+              />
+              <span class="logo-text">SMOOTH CODE</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center ms-auto mb-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-area">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work-area">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#newsletter-area">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project-area">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team-area">Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- header-area ends here -->
+
+    <!-- carousel-area starts here -->
+    <section id="carousel-area" class="py-5">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption text-start">
+              <h1 class="carousel-text mb-3">Development</h1>
+              <p class="carousel-para mb-4">
+                Software development has become essential to each and every aspect of
+                business.
+              </p>
+              <button class="btn text-white">CONTACT US</button>
+            </div>
+            <img
+              src="img/Carousel1.jpg"
+              loading="lazy"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption text-start">
+              <h1 class="carousel-text mb-3">Designing</h1>
+              <p class="carousel-para mb-4">
+                Graphic design has become essential to each and every aspect of
+                business.
+              </p>
+              <button class="btn text-white">CONTACT US</button>
+            </div>
+            <img
+              src="img/Carousel2.jpg"
+              loading="lazy"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption text-start">
+              <h1 class="carousel-text mb-3">Engineering</h1>
+              <p class="carousel-para mb-4">
+                Engineering has become essential to each and every aspect of
+                business.
+              </p>
+              <button class="btn text-white">CONTACT US</button>
+            </div>
+            <img
+              src="img/Carousel3.jpg"
+              loading="lazy"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- carousel-area ends here -->
+
+    <!-- about-area starts here -->
+    <section id="about-area" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6  align-self-md-center about-content">
+              <h1>About Us</h1>
+              <h3>Read Our Company</h3>
+              <p>
+                A software company is an organisation — owned either by state or
+                private — established for profit whose primary products are
+                various forms of software, software technology, distribution,
+                and software product development.
+              </p>
+              <button class="btn text-white">LEARN MORE</button>
+          </div>
+          <div class="col-md-6 about-img">
+              <img class="img-fluid" src="img/about.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area ends here -->
+
+    <!-- work-area starts here -->
+    <section id="work-area" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>What we do?</h1>
+            <p>
+              Researching, designing, implementing, and managing software
+              programs. Testing and evaluating new programs.
+            </p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+          <div class="col">
+            <div class="card-content h-100">
+              <div class="card-body">
+                <i class="bi bi-briefcase fs-1"></i>
+                <h5 class="card-title pt-1">Business Strategy</h5>
+                <p class="card-text">
+                  A business strategy is an outline of the actions and decisions
+                  a company plans to take to reach its goals and objectives.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-content h-100">
+              <div class="card-body">
+                <i class="bi bi-pc-display-horizontal fs-1"></i>
+                <h5 class="card-title pt-1">Web Development</h5>
+                <p class="card-text">
+                  A web developer makes and maintains websites. They are in
+                  charge of a site's overall look and feel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-content h-100">
+              <div class="card-body">
+                <i class="bi bi-people-fill fs-1"></i>
+                <h5 class="card-title pt-1">Marketing & Reporting</h5>
+                <p class="card-text">
+                  Marketing reporting is an organized process that curates,
+                  gathers, and analyzes marketing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- work-area ends here -->
+
+    <!-- project-area starts here -->
+    <section id="project-area" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Recent Projects</h1>
+            <p>
+              Project descriptions provide the following details to the
+              applicants: the problem the project will address, a set of goals
+              for the project, the overall objectives for the project, as well
+              as a project plan that describes the activities the members will
+              undertake.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card border-0 overflow-hidden mb-3">
+              <img src="img/project1.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card overflow-hidden border-0 mb-3">
+              <img src="img/project2.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card overflow-hidden border-0 mb-3">
+              <img src="img/project3.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card overflow-hidden border-0 mb-3">
+              <img src="img/project4.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card overflow-hidden border-0 mb-3">
+              <img src="img/project5.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card overflow-hidden border-0">
+              <img src="img/project6.jpg" loading="lazy" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project-area ends here -->
+
+    <!-- team-area starts here -->
+    <section id="team-area" class="pb-5">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <h1>Meet the Team</h1>
+          <p>
+            A team is defined as a group of people who perform interdependent
+            tasks to work toward accomplishing a common mission or specific
+            objective.
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="img/team1.jpg"
+                class="position-absolute top-0 start-0 w-75"
+                alt="..."
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li><a href="" class="bi bi-facebook"></a></li>
+                  <li><a href="" class="bi bi-instagram"></a></li>
+                  <li><a href="" class="bi bi-twitter"></a></li>
+                  <li><a href="" class="bi bi-linkedin"></a></li>
+                </ul>
+                <h4 class="card-title text-white">Ahmed Khan</h4>
+                <p class="card-text text-white">Snr. Web Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="img/team2.jpg"
+                class="position-absolute top-0 start-0 w-75"
+                alt="..."
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li><a href="" class="bi bi-facebook"></a></li>
+                  <li><a href="" class="bi bi-instagram"></a></li>
+                  <li><a href="" class="bi bi-twitter"></a></li>
+                  <li><a href="" class="bi bi-linkedin"></a></li>
+                </ul>
+                <h4 class="card-title text-white">Ebna Osman</h4>
+                <p class="card-text text-white">Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="img/team3.jpg"
+                class="position-absolute top-0 start-0 w-75"
+                alt="..."
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li><a href="" class="bi bi-facebook"></a></li>
+                  <li><a href="" class="bi bi-instagram"></a></li>
+                  <li><a href="" class="bi bi-twitter"></a></li>
+                  <li><a href="" class="bi bi-linkedin"></a></li>
+                </ul>
+                <h4 class="card-title text-white">Musa Iqbal</h4>
+                <p class="card-text text-white">Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team-area ends here -->
+
+    <!-- newsletter-area starts here -->
+    <section id="newsletter-area" class="pb-5">
+      <div class="newsletter-content">
+        <div class="container d-flex justify-content-between">
+          <h4 class="align-self-center text-white">
+            Subscribe Now and Quench Your Wanderlust!
+          </h4>
+          <button class="btn1 border-0">JOIN NOW</button>
+        </div>
+      </div>
+    </section>
+    <!-- newsletter ends here -->
+
+    <!-- info-area starts here -->
+    <section id="info-area" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info-logo mb-3">
+              <a class="navbar-brand " href="#"
+              ><img
+                class="mx-2 img-fluid"
+                loading="la"
+                src="img/icon.png"
+                alt=""
+              />
+              <span class="logo-text">SMOOTH CODE</span></a
+            >
+            </div>
+            <p class="logo-info">A code snippet is any example in the documentation. It shows how to use a specific member or how to accomplish a specific task.</p>
+            <div class="contact-section">
+              <p><i class="bi bi-envelope"></i> ibrahim.dev@gmail.com</p>
+              <p><i class="bi bi-telephone"></i> +018334344532</p>
+              <p><i class="bi bi-geo-alt"></i> islamabad,Eidgaon-4702</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="recent-post">
+              <h5 class="mb-4">Our Recent Post</h5>
+              <p>About Post Link.</p>
+              <p>Work Post Link.</p> 
+              <p>Project Post Link.</p> 
+              <p>Team Post Link.</p> 
+              <p>Service Post Link.</p>
+              <p>Contact Post Link.</p> 
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="email-newsletter">
+              <h5 class="mb-4">Subscribe to our Newsletter</h5>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" placeholder="Enter Your Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control mb-4" placeholder="Enter Your Password" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn text-white">SUBSCRIBE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info-area ends here -->
+
+    <!-- footer-area starts here -->
+    <footer id="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="m-3">&copy; All Right Reserved 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area ends here -->
+
+    <!-- bootstrap 5 js -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

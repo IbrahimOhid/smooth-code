@@ -1,0 +1,15 @@
+#carousel-area{
+    img{
+        max-width: 100%;
+    }
+    .carousel-text{
+        font-size: 80px;
+    }
+    .carousel-caption{
+        margin: 70px -90px;
+        width: 500px;
+        .carousel-para{
+            text-align: justify;
+        }
+    }
+}

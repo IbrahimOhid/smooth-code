@@ -1,0 +1,283 @@
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.btn {
+  background: #16a6ff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+.btn:hover {
+  background: #4669ff;
+}
+
+nav {
+  box-shadow: rgb(203, 202, 202) 0px 1px 0px;
+}
+
+.navbar-brand img {
+  width: 55px;
+  height: 55px;
+}
+
+.logo-text {
+  font-weight: 500;
+  color: #4669ff;
+}
+
+#main-nav ul li {
+  font-weight: 500;
+}
+#main-nav ul li .active {
+  color: #16a6ff;
+}
+#main-nav ul a {
+  margin: 0 8px;
+  font-size: 16px;
+  color: #1e272e;
+}
+#main-nav ul a:hover {
+  color: #16a6ff;
+}
+
+#carousel-area img {
+  max-width: 100%;
+}
+#carousel-area .carousel-text {
+  font-size: 80px;
+}
+#carousel-area .carousel-caption {
+  margin: 70px -90px;
+  width: 500px;
+}
+#carousel-area .carousel-caption .carousel-para {
+  text-align: justify;
+}
+
+#about-area img {
+  border-radius: 20px;
+}
+
+.about-content P {
+  text-align: justify;
+}
+
+#work-area .card-text {
+  text-align: justify;
+}
+#work-area .card-content {
+  background: #f5f6fa;
+  padding: 15px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#work-area .card-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#work-area .card-body i {
+  color: #16a6ff;
+}
+#work-area .card-body i:hover {
+  color: #4669ff;
+}
+
+#project-area .card img {
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#project-area .card img:hover {
+  transform: scale(1.2);
+}
+
+#team-area .card:hover .card-body {
+  width: 100%;
+}
+#team-area .card-body {
+  background: #4669ff;
+  height: 530px;
+  width: 75%;
+  transition: 0.3s;
+}
+#team-area ul.social {
+  list-style: none;
+  margin: 0 0 250px;
+  text-align: right;
+  padding: 0 20px 0;
+}
+#team-area ul.social li {
+  margin-bottom: 15px;
+  display: block;
+}
+#team-area a {
+  color: #1e272e;
+  font-size: 20px;
+}
+#team-area a:hover {
+  color: #fff;
+}
+
+#newsletter-area .newsletter-content {
+  background-color: #16a6ff;
+  padding: 50px 0;
+}
+#newsletter-area .newsletter-content .btn1 {
+  background: #fff;
+  padding: 15px 35px;
+  color: #1e272e;
+}
+#newsletter-area .newsletter-content .btn1:hover {
+  background: #4669ff;
+  color: #fff;
+}
+
+#info-area {
+  background: #2C3A47;
+  color: #fff;
+  border: 1px solid gray;
+}
+#info-area .logo-info {
+  text-align: justify;
+}
+#info-area .contact-section i {
+  margin-right: 10px;
+}
+#info-area .recent-post {
+  padding-top: 20px;
+}
+#info-area .recent-post p {
+  transition: 0.5s;
+  cursor: pointer;
+}
+#info-area .recent-post p:hover {
+  color: #4669ff;
+  text-decoration: underline;
+}
+#info-area .recent-post h5 {
+  color: #16a6ff;
+}
+#info-area .logo-text {
+  color: #16a6ff;
+}
+#info-area .email-newsletter {
+  padding-top: 20px;
+}
+#info-area .email-newsletter h5 {
+  color: #16a6ff;
+}
+
+#footer-area {
+  background: #2C3A47;
+  color: #fff;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  #carousel-area img {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  #carousel-area .carousel-caption {
+    height: 100px;
+    padding: 0 25px;
+  }
+  #carousel-area .carousel-caption .carousel-text {
+    font-size: 40px;
+  }
+  #carousel-area .carousel-caption .carousel-para {
+    font-size: 15px;
+  }
+  #carousel-area .carousel-caption .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #about-area .about-content {
+    order: 2;
+    margin-top: 0;
+  }
+  #about-area .about-content h1 {
+    font-size: 25px;
+    padding-top: 12px;
+  }
+  #about-area .about-content h3 {
+    font-size: 18px;
+    padding-top: 12px;
+  }
+  #about-area .about-content p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #about-area .about-img {
+    order: 0;
+  }
+  #about-area .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #work-area h1 {
+    font-size: 25px;
+  }
+  #work-area p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #project-area h1 {
+    font-size: 25px;
+  }
+  #project-area p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #team-area h1 {
+    font-size: 25px;
+  }
+  #team-area p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #team-area img {
+    position: relative !important;
+    display: block;
+    width: 100% !important;
+  }
+  #team-area .card-body {
+    width: 100%;
+    height: auto;
+  }
+  #team-area ul {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+  #team-area ul li {
+    display: inline-block !important;
+    margin: 0 8px;
+  }
+  #team-area .card-title {
+    text-align: center;
+  }
+  #team-area .card-text {
+    text-align: center;
+  }
+  #newsletter-area {
+    padding: 10px 0;
+  }
+  #newsletter-area h4 {
+    font-size: 13px;
+  }
+  #newsletter-area .btn1 {
+    font-size: 14px;
+  }
+  #info-area .email-newsletter .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=main.css.map */

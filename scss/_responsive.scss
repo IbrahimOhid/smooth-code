@@ -1,0 +1,118 @@
+@media only screen and (min-width:200px) and (max-width:800px){
+    #carousel-area{
+        img{
+            max-width: 100%;
+            margin-top: 50px;
+        }
+        .carousel-caption{
+            height: 100px;
+            padding: 0 25px;
+            .carousel-text{
+                font-size: 40px;
+            }
+            .carousel-para{
+                font-size: 15px;
+            }
+            .btn{
+                padding: 10px 15px;
+                font-size: 14px;
+        }
+        }
+        
+         
+    }
+    #about-area{
+        .about-content{
+            order: 2;
+            margin-top: 0;
+            h1{
+                font-size: 25px;
+                padding-top: 12px;
+            }
+            h3{
+                font-size: 18px;
+                padding-top: 12px;
+            }
+            p{
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+        .about-img{
+            order: 0;
+            
+        }
+        .btn{
+            padding: 10px 15px;
+            font-size: 14px;
+    }
+    }
+    #work-area{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 14px;
+            text-align: justify;
+        }
+    }
+    #project-area{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 14px;
+            text-align: justify;
+        }
+    }   
+    #team-area{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 14px;
+            text-align: justify;
+        }
+        img{
+            position: relative !important;
+            display: block;
+            width: 100% !important;
+        }
+        .card-body{
+            width: 100%;
+            height: auto;
+        }
+        ul{
+            text-align: center !important;
+            margin: 0 !important;
+            li{
+                display: inline-block !important;
+                margin: 0 8px;
+            }
+        }
+        .card-title{
+            text-align: center;
+        } 
+        
+        .card-text{
+            text-align: center;
+        }
+    }  
+    #newsletter-area{
+        padding: 10px 0;
+        h4{
+            font-size: 13px;
+        }
+        .btn1{
+            font-size: 14px;
+        }
+    }
+    #info-area{
+        .email-newsletter{
+            .btn{
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+#work-area{
+    .card-text{
+        text-align: justify;
+    }
+    .card-content{
+        background: #f5f6fa;
+        padding: 15px 15px;
+        border-radius: 10px;
+        transition: 0.5s;
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+    }
+    .card-body{
+        
+        i{
+            color: $primary-color;
+            &:hover{
+                color: $sec-color;
+            }
+        }
+    }
+}

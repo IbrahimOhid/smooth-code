@@ -1,0 +1,29 @@
+// nav-area design starts
+nav{
+    box-shadow: rgb(203, 202, 202) 0px 1px 0px;
+}
+.navbar-brand img{
+    width: 55px;
+    height: 55px;
+}
+.logo-text{
+    font-weight: $font-md;
+    color: $sec-color;
+}
+#main-nav ul{
+    li{
+        font-weight: $font-md;
+        .active{
+            color: $primary-color;
+        }
+    }
+    a{
+        margin: 0 8px;
+        font-size: 16px;
+        color: $black-color;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+// nav-area design ends

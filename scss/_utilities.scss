@@ -1,0 +1,27 @@
+$font-sm: 300;
+$font-md: 500;
+$font-lg: 900;
+$primary-color: #16a6ff;
+$sec-color: #4669ff;
+$black-color: #1e272e;
+$white-color: #fff;
+p{
+        font-weight: $font-sm;
+        font-size: 18px;  
+}
+h1, h2, h3, h4, h5{
+    font-weight: $font-md;
+}
+h1{
+    font-size: 60px;
+    font-weight: $font-lg;
+}
+.btn{
+    background: $primary-color;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: $font-md;
+    &:hover{
+        background: $sec-color;
+    }
+}
